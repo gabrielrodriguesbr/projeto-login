@@ -35,7 +35,7 @@ section#login{
     transform: translate(-50%, -50%);
 }
 section#login>div#imagem{
-    background: #48435c url('../imagens/predio.jpg') no-repeat;
+    background: white url('../imagens/predio.jpg') no-repeat;
     height: 200px;
     background-size: cover;
     background-position: center;
