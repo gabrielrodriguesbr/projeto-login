@@ -1,9 +1,10 @@
-@media screen and(min-width: 768px) and(max-width: 992px){
+@media screen and(min-width: 768px) and(max-width: 992px){ /*PARA TABLETS*/
     body{
         background-image: linear-gradient(to top, #5d8edf, #e7e6f9);
     }
     section#login{
         width: 80vw;
+        height: 280px;
     }
     section#login>div#imagem{
         float: left;
@@ -15,12 +16,13 @@
         float: right;
     }
 }
-@media screen and(min-width: 992px){
+@media screen and(min-width: 992px){ /*SUPER TELAS*/
     body{
         background-image: linear-gradient(to top, #5d8edf, #e7e6f9);
     }
     section#login{
         width: 950px;
+        height: 350px;
     }
     section#login>div#imagem{
         float: right;
@@ -33,8 +35,10 @@
     }
     div#formulario>p{
         font-size: 1.2em;
+        margin: 20px 0px;
     }
     div#formulario>h1{
         font-size: 2em;
     }
+
 }
